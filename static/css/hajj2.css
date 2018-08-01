@@ -1,0 +1,25 @@
+body{
+	background-color: #;
+}
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .serv {
+    text-align: center;
+    background-color: #58534aad;
+    padding: 200px;
+}
+.serv a {
+    background-color: #441919;
+    padding: 50%;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
