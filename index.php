@@ -31,32 +31,31 @@ include('header1.php');
 <div class="serv">
   <div class="row">
 
-  	<div class="col-lg-4">
+  	<div class="col-lg-4 col-xs-12">
 <h1> test</h1>
   	</div>
-  	<div class="col-lg-4">
+  	<div class="col-lg-4 col-xs-12">
 <h1>test </h1>
   	</div>
-<div class="col-lg-4">
+<div class="col-lg-4 col-xs-12">
 <h1> test</h1>
   	</div>
 
 
-  	<div class="col-lg-4">
+  	<div class="col-lg-4 col-xs-12">
 <h1> test</h1>
   	</div>
-  	<div class="col-lg-4">
+  	<div class="col-lg-4 col-xs-12">
 <h1>test </h1>
   	</div>
-<div class="col-lg-4">
+<div class="col-lg-4 col-xs-12">
 <h1> test</h1>
   	</div>
 
 </div>
 
-  
-
-</div><br><br>
+    </div>
+ 
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>

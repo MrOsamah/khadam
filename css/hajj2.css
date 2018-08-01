@@ -16,10 +16,23 @@ body{
     background-color: #58534aad;
     padding: 200px;
 }
-.serv h1 {
+.serv div {
     background-color: #441919;
     padding: 50%;
     border-radius: 50%;
     height: 25px;
     width: 25px;
+}
+
+	.row img {
+
+    background-color: #8d8a84;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
