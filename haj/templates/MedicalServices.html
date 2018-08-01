@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="container-fluid text-center">
+  <h1>Medical Services </h1>
+  <form class="container-fluid" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class=" text-center " type="submit" >Submit</button>
+  </form>
+
+ <p><a class=" text-center " href='../'>Back</a></p>
+</div>
+{% endblock %}
