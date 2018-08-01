@@ -5,7 +5,7 @@ body{
       margin-bottom: 0;
       border-radius: 0;
     }
-    
+
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
@@ -16,7 +16,7 @@ body{
     background-color: #58534aad;
     padding: 200px;
 }
-.serv h1 {
+.serv a {
     background-color: #441919;
     padding: 50%;
     border-radius: 50%;
