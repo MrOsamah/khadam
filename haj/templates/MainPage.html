@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="header">
+<div class="row ">
+
+<div class="logo1">
+<br><br>
+<div class="col-lg-12">
+            <img class="img-responsive logo" src="{% static 'img/logo.png'%}" alt="Hajj Servant Logo">
+            </div>
+</div>
+</div>
+</div>
+
+
+<div class="container text-center main">
+
+    <div class="row service-row">
+        <div class="col-sm-4 service" id="medicalService">
+            <a href="/MedicalServices"><h1 class="glyphicon glyphicon-plus service-logo"></h1></a>
+            <h2 class="service-name">Medical Service</h2>
+        </div>
+        <div class="col-sm-4 service" id="lostService">
+            <a href="/Lost"><h1 class="fas fa-sad-tear service-logo"></h1></a>
+            <h2 class="service-name">Lost People</h2>
+        </div>
+        <div class="col-sm-4 service" id="whereIam">
+            <a><h1 class="fas fa-map-marker service-logo"></h1></a>
+            <h2 class="service-name">Where I am?</h2>
+        </div>
+    </div>
+    <div class="row service-row">
+        <div class="col-sm-4 service" id="hajjGuide">
+            <a><h1 class="fas fa-book service-logo"></h1></a>
+            <h2 class="service-name">Hajj Guide</h2>
+        </div>
+        <div class="col-sm-4 service" id="duaa">
+            <a><h1 class="fas fa-hand-holding service-logo"></h1></a>
+            <h2 class="service-name">Duua</h2>
+        </div>
+        <div class="col-sm-4 service" id="busParking">
+            <a><h1 class="fas fa-bus service-logo"></h1></a>
+            <h2 class="service-name">Bus Parkings</h2>
+        </div>
+    </div>
+    </div>
+</div>
+
+{% endblock %}
