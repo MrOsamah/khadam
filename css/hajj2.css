@@ -5,7 +5,7 @@ body{
       margin-bottom: 0;
       border-radius: 0;
     }
-    
+
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
@@ -16,13 +16,18 @@ body{
     background-color: #58534aad;
     padding: 200px;
 }
+<<<<<<< HEAD
 .serv div {
+=======
+.serv a {
+>>>>>>> b6c9fbbc6faad5e18e0ef7d765f0e31354a32042
     background-color: #441919;
     padding: 50%;
     border-radius: 50%;
     height: 25px;
     width: 25px;
 }
+<<<<<<< HEAD
 
 	.row img {
 
@@ -36,3 +41,5 @@ body{
     margin-right: auto;
     width: 50%;
 }
+=======
+>>>>>>> b6c9fbbc6faad5e18e0ef7d765f0e31354a32042
