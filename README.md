@@ -8,7 +8,7 @@ A web application made to serve and help Hjjaj. Part of Hajj Hackathon 2018.
 - Run the server using:
 `python3 manage.py runserver`
 - In your browser go to http://127.0.0.1:8000
-- Have fun
+- Good Luck
 ## Live Demo
 
 You can see a working demo with some of the features in this [link](http://Khadem.pythonanywhere.com).
