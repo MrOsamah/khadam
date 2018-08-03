@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1>Lost Persons:</h1>
+        </div>
+    </div>
+  <div class="lost-img" >
+      {{ item }}
+    </div>
+    {% endfor %}
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <a href='../../'><span class="fas fa-chevron-left service-logo"></span><h1> Back</h1></a>
+        </div>
+    </div>
+</div>
+{% endblock %}

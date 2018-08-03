@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class MedicalServices(models.Model):
     Male= 'M'
     Female = 'F'
@@ -33,7 +34,8 @@ class MedicalServices(models.Model):
     Photo = models.FileField(upload_to='uploads/')
 
 
-class Lost(models.Model):
+
+class Lost2(models.Model):
     Male= 'M'
     Female = 'F'
     Saudi = 'SA'
@@ -48,9 +50,27 @@ class Lost(models.Model):
         ('PA' , 'Pakistani'),
         ('IR' , 'Iranian')
     )
-    
     Name = models.CharField(max_length=30)
     Gender = models.CharField(max_length=1 , choices=Gender_choices , default="")
     Nationality = models.CharField(max_length=2 , choices=Nationality_choices , default="")
-    Age = models.IntegerField()
+    Photo = models.FileField(upload_to='uploads/')
+
+class Lost3(models.Model):
+    Male= 'M'
+    Female = 'F'
+    Saudi = 'SA'
+    Pakistani = 'PA'
+    Iranian = 'IR'
+    Gender_choices =  (
+        ('M' , 'Male'),
+        ('F' , 'Female')
+    )
+    Nationality_choices = (
+        ('SA' , 'Saudi'),
+        ('PA' , 'Pakistani'),
+        ('IR' , 'Iranian')
+    )
+    Name = models.CharField(max_length=30)
+    Gender = models.CharField(max_length=1 , choices=Gender_choices , default="")
+    Nationality = models.CharField(max_length=2 , choices=Nationality_choices , default="")
     Photo = models.FileField(upload_to='uploads/')

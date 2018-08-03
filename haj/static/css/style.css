@@ -1,7 +1,11 @@
 body, html {
     height: 100%;
     font-family: 'Cairo', sans-serif;
-    background-color: #231d0f;
+    background-color: #130f05;
+}
+
+h1,h2,h3,h4,p,a {
+    color: #e3e4c2;
 }
 
 .bg {
@@ -26,12 +30,12 @@ body, html {
 }
 .sidenav a {
     margin-top: .3em;
-    padding: 13px 13px 8px 13px;
+    padding: 10px 13px 8px 10px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.4s;
     direction: rtl;
 }
 
@@ -44,7 +48,7 @@ body, html {
     top: 0;
     left: 75px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 
@@ -53,7 +57,7 @@ body, html {
     .sidenav a {font-size: 18px;}
 }
 
-.menu-icon {
+#menuIcon {
     direction: rtl;
     font-size: 3em;
     margin-right: .3em;
@@ -91,7 +95,7 @@ body, html {
 }
 
 .service-logo {
-    font-size: 6em;
+    font-size: 3em;
 }
 
 .logo {
@@ -112,4 +116,31 @@ body, html {
 
 .hide-element {
   display: none;
+}
+
+#map {
+    height: 434px;
+    margin: 2em;
+  }
+
+a:hover {
+    text-decoration: none;
+    color: #3399cc;
+}
+
+.service-featured-logo {
+    font-size: 8em;
+}
+
+.lost-img img {
+    margin: 0.5em;
+    display: inline-block;
+}
+
+#id_Photo{
+    margin: 1em auto;
+}
+
+#id_Name {
+    margin:1.2em;
 }

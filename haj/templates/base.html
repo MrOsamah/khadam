@@ -16,6 +16,26 @@
 		 <link rel="stylesheet" href="{% static 'css/style.css'%}">
 		 <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 		 <script src="{% static 'js/script.js'%}"></script>
+		 <script>
+		     //function that gets the location and returns it
+function getLocation() {
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    console.log("Geo Location not supported by browser");
+  }
+}
+//function that retrieves the position
+function showPosition(position) {
+  var location = {
+    longitude: position.coords.longitude,
+    latitude: position.coords.latitude
+  }
+  console.log(location)
+}
+//request for location
+getLocation();
+		 </script>
 </head>
 
 <style >
@@ -26,19 +46,36 @@
 	opacity: 1;
 	color: white;
 }
+.logo {
+    width: auto;
+    height: 250px;
+    margin: 0 auto;
+}
 
 
 </style>
-<body background="{% static 'img/makkah-n-e2.jpg'%}" style="background-position: center;background-size: cover;background-repeat: no-repeat;">
+<body background="{% static 'img/lastbg_v3.png'%}" style="background-position: center;background-size: cover;background-repeat: no-repeat;">
 
 
-<div class="menu-icon"> <p class="fas fa-globe-americas" onclick="openNav()"></p></div>
+<div><p id="menuIcon" class="fas fa-globe-americas" onclick="openNav()"></p></div>
 	<div id="mySidenav" class="sidenav navbar-inner">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<a class="lng-title" href="#"><img src="{% static 'img/sa-flag.png'%}" alt="Arabic Langugae">  العربية  </a>
 				<a class="lng-title" href="#"><img src="{% static 'img/en-flag.png'%}" alt="English Language">  English  </a>
 				<a class="lng-title" href="#"><img src="{% static 'img/ur-flag.png'%}" alt="Urdu Language">  اردو  </a>
 				<a class="lng-title" href="#"><img src="{% static 'img/fr-flag.png'%}" alt="French Language">  Française  </a>
+</div>
+
+<div class="header">
+<div class="row ">
+
+<div class="logo1">
+<br><br>
+<div class="col-lg-12">
+           <img class="img-responsive logo" src="{% static 'img/hajlogo.png'%}" alt="Hajj Servant Logo">
+            </div>
+</div>
+</div>
 </div>
 
 
